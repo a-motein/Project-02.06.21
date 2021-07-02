@@ -235,24 +235,48 @@ header .d-flex .btn{
 }
 
 
-
-#appFeature .container .featureIcon{
-    display: flex;
-    flex-direction: row;
+#appFeature .container .allFeature{
+    margin-top: 15%;
 }
 
 
 
+#appFeature .container .featureIcon{
+    display: flex;
+    flex-direction: row;
+    padding: 3% 0;
+}
+
+
+#appFeature .container .featureIcon .icon{
+    width: 70px;
+    height: fit-content;
+    margin: 12px 22px;
+}
+
+
+#appFeature .container .lastText{
+    font-size: medium;
+    font-weight: 400;
+    color: #242f51;
+}
 
 
 
+#appFeature .container .firstLine{
+    color: #f55767;
+}
 
 
 
+#appFeature .container .secondLine{
+    color: #2563ff;
+}
 
 
-
-
+#appFeature .container .thirdLine{
+    color: #40975f;
+}
 
 
 /* --------------------App Feature CSS End------------------------ */
