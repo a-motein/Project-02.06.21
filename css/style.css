@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* --------------------Header CSS Start------------------------ */
+
+header{
+    background-color: #fdfdfe;
+    width: 100%;
+    height: auto;
+}
+
+
+header .container{
+    margin-top: 1.2%;
+}
+
+header .nav-link{
+    font-size: .7em;
+    font-weight: 600;
+    padding-left: 1.5rem !important;
+}
+
+header .d-flex{
+    padding-left: 1.5rem !important;
+}
+
+header .d-flex .btn{
+    font-size: .7em;
+    font-weight: 600;
+    border-radius: 1.2rem;
+    padding: .5rem 1.5rem;
+    background-color: #2500f9;
+}
+
+
+/* --------------------Header CSS End------------------------ */
+
+
+/* --------------------Banner CSS Start------------------------ */
+
+
+#banner{
+    background-image: url(../img/background-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: #fdfdfe;
+}
+
+#banner i{
+    font-size: .8rem;
+    padding: .3rem;
+    margin-right: .3rem;
+    border-radius: 50%;
+    background-color: #feaa25;
+    color: #fff;
+    text-align: start;
+}
+
+#banner span{
+    font-size: .8rem;
+}
+
+#banner .choiceApp{
+    background-color: #e2eaed;
+    display: inline-block;
+    padding: .05rem 1.5rem .05rem .05rem;
+    font-size: .8em;
+    font-weight: 500;
+    border-radius: 30px;
+    margin: 20% 0 0 5%;
+}
+
+
+#banner h1{
+    font-weight: bolder;
+    color: #242f51;
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+
+
+#banner .lastTxt{
+    font-size: medium;
+    margin-left: 5%;
+    font-weight: 400;
+    color: #242f51;
+}
+
+
+
+#banner .btn-group .btn{
+    font-size: .6em;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-bottom: 100%;
+}
+
+
+.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle),
+.btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:nth-child(n+2), .btn-group>:not(.btn-check)+.btn{
+    border-radius: 20px;
+}
+
+#banner .btn-group, .btn-group-vertical{
+    margin-left: 5%;
+}
+
+.btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.dropdown-toggle.show, .btn:active{
+    background-color: #2500f9;
+    color: #fff;
+}
+
+
+
+.btn-check:focus+.btn, .btn:focus{
+    color: #fff;
+    background-color: #2500f9;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+
+
+#banner form .btn2{
+    margin-left: 0;
+}
+
+
+
+
+/* --------------------Banner CSS End------------------------ */
+
+
+
+
+
+
+
+
+/* --------------------Company CSS Start------------------------ */
+
+#company{
+    background-color: #fff;
+    text-align: center;
+}
+
+
+#company .container .companyImg{
+    width: calc(100% - 200px);
+    display: inline-flex;
+}
+
+
+#company .container .companyImg .logoImg{
+    padding: 35px 30px;
+}
+
+
+
+
+
+
+
+
+
+/* --------------------Company CSS End------------------------ */
