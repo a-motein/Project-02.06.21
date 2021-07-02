@@ -59,8 +59,15 @@ header .d-flex .btn{
     background-color: #fdfdfe;
 }
 
+
+#banner .container .col-md{
+    margin:auto;
+    height: 100%;
+}
+
+
 #banner i{
-    font-size: .8rem;
+    font-size: .9em;
     padding: .3rem;
     margin-right: .3rem;
     border-radius: 50%;
@@ -70,7 +77,7 @@ header .d-flex .btn{
 }
 
 #banner span{
-    font-size: .8rem;
+    font-size: .9em;
 }
 
 #banner .choiceApp{
@@ -118,24 +125,39 @@ header .d-flex .btn{
     margin-left: 5%;
 }
 
-.btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.dropdown-toggle.show, .btn:active{
+#banner .btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.dropdown-toggle.show, .btn:active{
     background-color: #2500f9;
-    color: #fff;
+    color: #fff !important;
 }
 
 
 
-.btn-check:focus+.btn, .btn:focus{
-    color: #fff;
+#banner .btn-check:focus+.btn, .btn:focus{
+    color: #fff !important;
     background-color: #2500f9;
     border-radius: 20px;
     box-shadow: none;
 }
 
 
+#banner .btn{
+    color: #2500f9;
+}
+
+#banner .btn:hover{
+    color: #2500f9;
+}
+
 
 #banner form .btn2{
     margin-left: 0;
+}
+
+
+#banner .col-md img{
+    width: 72%;
+    height: auto;
+    margin-left: 5rem;
 }
 
 
@@ -161,7 +183,7 @@ header .d-flex .btn{
 
 #company h6{
     color: #242f51;
-    font-size: .8rem;
+    font-size: .8em;
 
 }
 
@@ -190,12 +212,36 @@ header .d-flex .btn{
 
 
 #appFeature{
-background-color: #fff;
+    background-color: #fff;
 }
 
-#appFeature h3{
 
+#appFeature .row {
+    margin-top: 6rem;
 }
+
+
+#appFeature h3 {
+    color: #242f51;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+
+#appFeature .container .firstText{
+    font-size: large;
+    font-weight: 400;
+    color: #242f51;
+}
+
+
+
+#appFeature .container .featureIcon{
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 
 
