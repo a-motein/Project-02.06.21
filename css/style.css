@@ -9,7 +9,10 @@
 }
 
 a{
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
 
@@ -32,16 +35,36 @@ header .nav-link{
     padding-left: 1.5rem !important;
 }
 
-header .d-flex{
-    padding-left: 1.5rem !important;
+
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #2500f9;
 }
 
-header .d-flex .btn{
-    font-size: .7em;
+
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link{
+    color: #2500f9;
+}
+
+
+header .btn{
+    font-size: .6em;
     font-weight: 600;
     border-radius: 1.2rem;
     padding: .5rem 1.5rem;
     background-color: #2500f9;
+    color: #fff;
+    margin-left: 1.5rem;
+}
+
+
+header .btn:hover{
+    text-decoration: none;
+    background-color: #fdfdfe;
+    color: #2500f9;
+    border: 1px solid #2500f9;
+    transition: ease-in-out 0.5s;
 }
 
 
@@ -173,7 +196,7 @@ header .d-flex .btn{
 
 
 
-/* --------------------Company CSS Start------------------------ */
+/* --------------------Company Name CSS Start------------------------ */
 
 #company{
     background-color: #fff;
@@ -190,7 +213,7 @@ header .d-flex .btn{
 
 
 #company .container .companyImg{
-    width: calc(100% - 200px);
+    width: 60vw;
     display: inline-flex;
 }
 
@@ -203,26 +226,22 @@ header .d-flex .btn{
 
 
 
-/* --------------------Company CSS End------------------------ */
+/* --------------------Company Name CSS End------------------------ */
 
 
 
 
 
-/* --------------------App Feature CSS Start------------------------ */
+/* --------------------Kye Feature CSS Start------------------------ */
 
 
-#appFeature{
-    background-color: #fff;
-}
 
-
-#appFeature .row {
+#kyeFeature .row {
     margin-top: 6rem;
 }
 
 
-#appFeature h3 {
+#kyeFeature h3 {
     color: #242f51;
     font-size: 1.5em;
     font-weight: bolder;
@@ -230,39 +249,39 @@ header .d-flex .btn{
 }
 
 
-#appFeature .container .firstText{
+#kyeFeature .container .firstText{
     font-size: large;
     font-weight: 400;
     color: #242f51;
 }
 
 
-#appFeature .container .allFeature{
+#kyeFeature .container .allFeature{
     margin-top: 10%;
 }
 
 
 
-#appFeature .container .featureIcon{
+#kyeFeature .container .featureIcon{
     display: flex;
     flex-direction: row;
     padding: 2% 0;
 }
 
 
-#appFeature .container h6{
+#kyeFeature .container h6{
     font-weight: 600;
 }
 
 
-#appFeature .container .featureIcon .icon{
+#kyeFeature .container .featureIcon .icon{
     width: 80px;
     height: fit-content;
     margin: 5px 22px;
 }
 
 
-#appFeature .container .lastText{
+#kyeFeature .container .lastText{
     font-size: medium;
     font-weight: 400;
     color: #242f51;
@@ -270,23 +289,23 @@ header .d-flex .btn{
 
 
 
-#appFeature .container .firstLine{
+#kyeFeature .container .firstLine{
     color: #f55767;
 }
 
 
 
-#appFeature .container .secondLine{
+#kyeFeature .container .secondLine{
     color: #2563ff;
 }
 
 
-#appFeature .container .thirdLine{
+#kyeFeature .container .thirdLine{
     color: #40975f;
 }
 
 
-/* --------------------App Feature CSS End------------------------ */
+/* --------------------Kye Feature CSS End------------------------ */
 
 
 
@@ -414,6 +433,15 @@ header .d-flex .btn{
 }
 
 
+#intergation .btn:hover{
+    text-decoration: none;
+    background-color: #fdfdfe;
+    color: #2500f9;
+    border: 1px solid #2500f9;
+    transition: ease-in-out 0.5s;
+}
+
+
 /* --------------------Intergation CSS End------------------------ */
 
 
@@ -430,28 +458,28 @@ hr:not([size]) {
 
 
 
-/* --------------------Question CSS Start------------------------ */
+/* --------------------Choose Our App CSS Start------------------------ */
 
 
 
-#ques .container .row{
+#coa .container .row{
     padding-bottom: 5%;
 }
 
 
 
-#ques .container .col-md-4{
+#coa .container .col-md-4{
     width: auto;
     margin: auto;
 }
 
 
-#ques .container .col-md-4 .icon{
+#coa .container .col-md-4 .icon{
     padding-bottom: 20px;
 }
 
 
-#ques h3 {
+#coa h3 {
     color: #242f51;
     font-size: 1.5em;
     font-weight: bolder;
@@ -459,7 +487,7 @@ hr:not([size]) {
 }
 
 
-#ques .container .firstText{
+#coa .container .firstText{
     font-size: large;
     font-weight: 400;
     color: #242f51;
@@ -467,7 +495,7 @@ hr:not([size]) {
 }
 
 
-#ques .container .allLine{
+#coa .container .allLine{
     color: #242f51;
     font-weight: 600;
     padding-bottom: 2%;
@@ -476,7 +504,7 @@ hr:not([size]) {
 
 
 
-#ques .container .lastText{
+#coa .container .lastText{
     font-size: medium;
     font-weight: 400;
     color: #242f51;
@@ -485,7 +513,7 @@ hr:not([size]) {
 
 
 
-/* --------------------Question CSS End------------------------ */
+/* --------------------Choose Our App CSS End------------------------ */
 
 
 
@@ -557,6 +585,15 @@ hr:not([size]) {
     color: #fff;
     background-color: #2500f9;
     border-radius: 20px;
+}
+
+
+#feature .btn:hover{
+    text-decoration: none;
+    background-color: #fdfdfe;
+    color: #2500f9;
+    border: 1px solid #2500f9;
+    transition: ease-in-out 0.5s;
 }
 
 

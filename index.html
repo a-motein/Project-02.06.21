@@ -41,7 +41,7 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Kye Features</a>
+                        <a class="nav-link" href="#kyeFeature">Kye Features</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
@@ -52,10 +52,10 @@
                       <li class="nav-item">
                         <a class="nav-link" href="#">FAQ</a>
                       </li>
+                      <li class="nav-item">
+                        <a class="btn" href="#">Try for free</a>
+                      </li>
                     </ul>
-                    <form class="d-flex">
-                        <button class="btn btn-sm btn-primary" type="button">Try for free</button>
-                    </form>
                   </div>
                 </div>
               </nav>
@@ -107,7 +107,7 @@
 
 
 
-    <!-- Company Section Start -->
+    <!-- Company Name Section Start -->
 
     <section id="company">
       <div class="container">
@@ -136,15 +136,15 @@
 
 
 
-    <!-- Company Section End -->
+    <!-- Company Name Section End -->
 
 
 
 
 
-    <!-- App Feature Section Start -->
+    <!-- Kye Feature Section Start -->
 
-    <section id="appFeature">
+    <section id="kyeFeature">
       <div class="container">
 
         <div class="row">
@@ -212,7 +212,7 @@
       </div>
     </section>
 
-    <!-- App Feature Section End -->
+    <!-- Kye Feature Section End -->
 
 
 
@@ -304,7 +304,7 @@
                 consume information entirely and the world's most <br>
                 elevant channels such as Facebook.</p>
 
-              <button class="btn">Learn more</button>
+              <a class="btn" href="#jackpot">Learn more</a>
           </div>
         </div>
       </div>
@@ -318,9 +318,9 @@
 
 
 
-    <!-- Question Section Start -->
+    <!-- Choose Our App Section Start -->
 
-    <section id="ques">
+    <section id="coa">
       <div class="container text-center">
         <h3>Why you should choose <br>
           our app</h3>
@@ -397,7 +397,7 @@
     </section>
 
 
-    <!-- Question Section End -->    
+    <!-- Choose Our App Section End -->    
 
 
 
@@ -465,7 +465,7 @@
 
                 <div class="row">
                   <div class="col-12">
-                    <button class="btn">See all</button>
+                    <a class="btn" href="#coa">See all</a>
                   </div>
                 </div>
 
@@ -505,6 +505,18 @@
 
     <!-- Optional JavaScript; choose one of the two! -->
 
+    <script>
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById("navbarSupportedContent");
+      var btns = header.getElementsByClassName("nav-link");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        });
+      }
+      </script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
