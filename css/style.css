@@ -63,6 +63,7 @@ header .d-flex .btn{
 #banner .container .col-md{
     margin:auto;
     height: 100%;
+    padding: 18px;
 }
 
 
@@ -87,21 +88,21 @@ header .d-flex .btn{
     font-size: .8em;
     font-weight: 500;
     border-radius: 30px;
-    margin: 20% 0 0 5%;
+    margin: 30% 0 0 3.5rem;
 }
 
 
 #banner h1{
     font-weight: bolder;
     color: #242f51;
-    margin-left: 5%;
+    margin-left: 3.5rem;
     margin-top: 1.5%;
 }
 
 
 #banner .lastTxt{
     font-size: medium;
-    margin-left: 5%;
+    margin-left: 3.5rem;
     font-weight: 400;
     color: #242f51;
 }
@@ -122,7 +123,7 @@ header .d-flex .btn{
 }
 
 #banner .btn-group, .btn-group-vertical{
-    margin-left: 5%;
+    margin-left: 3.5rem;
 }
 
 #banner .btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.dropdown-toggle.show, .btn:active{
@@ -158,6 +159,7 @@ header .d-flex .btn{
     width: 72%;
     height: auto;
     margin-left: 5rem;
+    margin-bottom: 15px;
 }
 
 
@@ -225,6 +227,7 @@ header .d-flex .btn{
     color: #242f51;
     font-size: 1.5em;
     font-weight: bolder;
+    margin-top: 40px;
 }
 
 
@@ -236,7 +239,7 @@ header .d-flex .btn{
 
 
 #appFeature .container .allFeature{
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 
@@ -251,7 +254,7 @@ header .d-flex .btn{
 #appFeature .container .featureIcon .icon{
     width: 70px;
     height: fit-content;
-    margin: 12px 22px;
+    margin: 10px 22px;
 }
 
 
@@ -280,3 +283,33 @@ header .d-flex .btn{
 
 
 /* --------------------App Feature CSS End------------------------ */
+
+
+
+/* --------------------Jackpot CSS Start------------------------ */
+
+
+#jackpot .col-md{
+    text-align: center;
+    margin: auto;    
+    padding: 8% 0 4% 0;
+}
+
+
+#jackpot h3 {
+    color: #242f51;
+    font-size: 1.5em;
+    font-weight: bolder;
+    border-right: 1px solid #b9b9b8;
+}
+
+
+#jackpot .container .firstText{
+    font-size: large;
+    font-weight: 400;
+    color: #242f51;
+}
+
+
+
+/* --------------------Jackpot CSS End------------------------ */
