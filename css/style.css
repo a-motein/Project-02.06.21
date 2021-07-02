@@ -114,6 +114,12 @@ header .d-flex .btn{
     font-weight: 700;
     padding: 10px 20px;
     margin-bottom: 100%;
+    color: #2500f9;
+}
+
+
+#banner .btn:hover{
+    color: #2500f9;
 }
 
 
@@ -141,13 +147,6 @@ header .d-flex .btn{
 }
 
 
-#banner .btn{
-    color: #2500f9;
-}
-
-#banner .btn:hover{
-    color: #2500f9;
-}
 
 
 #banner form .btn2{
@@ -247,7 +246,7 @@ header .d-flex .btn{
 #appFeature .container .featureIcon{
     display: flex;
     flex-direction: row;
-    padding: 3% 0;
+    padding: 2% 0;
 }
 
 
@@ -375,6 +374,148 @@ header .d-flex .btn{
 
 
 /* --------------------ANB Icon CSS End------------------------ */
+
+
+
+
+/* --------------------Intergation CSS Start------------------------ */
+
+#intergation .container .col-md{
+    width: auto;
+    margin: auto;
+    padding: 4%;
+}
+
+
+
+#intergation h3 {
+    color: #242f51;
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding-bottom: 2%;
+}
+
+
+#intergation .container .firstText{
+    font-size: large;
+    font-weight: 400;
+    color: #242f51;
+    padding-bottom: 2%;
+}
+
+
+#intergation .container .btn{
+    font-size: .6em;
+    font-weight: 700;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #2500f9;
+    border-radius: 20px;
+}
+
+
+/* --------------------Intergation CSS End------------------------ */
+
+
+
+
+
+/* --------------------hr CSS------------------------------------- */
+hr:not([size]) {
+    height: 5px;
+    background-color: #e9e4e4;
+}
+
+
+
+
+
+/* --------------------Question CSS Start------------------------ */
+
+
+
+#ques .container .row{
+    padding-bottom: 5%;
+}
+
+
+
+#ques .container .col-md-4{
+    width: auto;
+    margin: auto;
+}
+
+
+#ques .container .col-md-4 .icon{
+    padding-bottom: 20px;
+}
+
+
+#ques h3 {
+    color: #242f51;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 15% auto 2%;
+}
+
+
+#ques .container .firstText{
+    font-size: large;
+    font-weight: 400;
+    color: #242f51;
+    margin-bottom: 10%;
+}
+
+
+#ques .container .allLine{
+    color: #242f51;
+    font-weight: 600;
+    padding-bottom: 2%;
+}
+
+
+
+
+#ques .container .lastText{
+    font-size: medium;
+    font-weight: 400;
+    color: #242f51;
+}
+
+
+
+
+/* --------------------Question CSS End------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
