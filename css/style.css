@@ -251,10 +251,15 @@ header .d-flex .btn{
 }
 
 
+#appFeature .container h6{
+    font-weight: 600;
+}
+
+
 #appFeature .container .featureIcon .icon{
-    width: 70px;
+    width: 80px;
     height: fit-content;
-    margin: 10px 22px;
+    margin: 5px 22px;
 }
 
 
@@ -313,3 +318,65 @@ header .d-flex .btn{
 
 
 /* --------------------Jackpot CSS End------------------------ */
+
+
+
+
+/* --------------------ANB Icon CSS Start------------------------ */
+
+
+
+#anbIcon .container .icon{
+    width: auto;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+#anbIcon .container .col-md-4{
+    width: auto;
+    margin: auto;
+    padding: 4% 4%;
+}
+
+
+#anbIcon .container h6{
+    font-weight: 600;
+}
+
+
+
+#anbIcon .container .firstLine{
+    color: #f55767;
+}
+
+
+
+#anbIcon .container .secondLine{
+    color: #2563ff;
+}
+
+
+#anbIcon .container .thirdLine{
+    color: #40975f;
+}
+
+
+
+#anbIcon .container .lastText{
+    font-size: medium;
+    font-weight: 400;
+    color: #242f51;
+}
+
+
+
+
+/* --------------------ANB Icon CSS End------------------------ */
+
+
+
+
+
