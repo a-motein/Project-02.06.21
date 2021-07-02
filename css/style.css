@@ -166,6 +166,8 @@ header .d-flex .btn{
 
 #company .container .companyImg .logoImg{
     padding: 35px 30px;
+    width: 20vw;
+    margin: auto;
 }
 
 
