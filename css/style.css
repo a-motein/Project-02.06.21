@@ -662,11 +662,11 @@ hr:not([size]) {
 
 
 #price .card{
-    border: none;
     box-shadow: 0 0 1px 0 rgb(0 0 0 / 0%), 0 10px 20px 0 rgb(0 0 0 / 10%);
     width: calc(100% - 40%);
     margin: auto 5%;
     transition: ease-in-out transform .2s;
+    border: none;
 }
 
 
@@ -686,7 +686,7 @@ hr:not([size]) {
 
 
 #price .cardHead{
-    background-image: linear-gradient(0deg, #f4f7f9, #fafcfc, #ffffff);
+    background-image: linear-gradient(0deg, #f4f7f9, #fafcfc, #fdfdfe, #fefefe, #ffffff);
     padding: 5%;
 }
 
@@ -799,9 +799,6 @@ hr:not([size]) {
 
 
 
-
-
-
 /* --------------------Pricing CSS End------------------------ */
 
 
@@ -811,7 +808,26 @@ hr:not([size]) {
 
 
 
+/* --------------------Testiminial CSS Start------------------------ */
 
+#testiminial{
+    background-image: url(../img/5th-part-img.png);
+    background-repeat: no-repeat;
+    background-position: left, center;
+    background-size: 50vw;
+}
+
+
+#testiminial .pple-img{
+    width: 80%;
+    height: auto;
+}
+
+
+
+
+
+/* --------------------Testiminial CSS End------------------------ */
 
 
 
