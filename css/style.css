@@ -26,7 +26,7 @@ header{
 
 
 header .container{
-    margin-top: 1.2%;
+    margin-top: 0.5%;
 }
 
 header .nav-link{
@@ -40,7 +40,7 @@ header .nav-link{
     position: sticky;
     top: 0;
     width: 100%;
-    box-shadow: 0 0 5px 0 rgba(190, 186, 186, 0.19);
+    box-shadow: 0 0 5px 0 rgba(190, 186, 186, 0.19), 0 0 2px 0 rgba(190, 186, 186, 0.19);
   }
 
 
@@ -162,8 +162,8 @@ header .btn:hover{
 }
 
 
-.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle),
-.btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:nth-child(n+2), .btn-group>:not(.btn-check)+.btn{
+#banner .btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle),
+#banner .btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:nth-child(n+2), .btn-group>:not(.btn-check)+.btn{
     border-radius: 20px;
 }
 
@@ -248,16 +248,16 @@ header .btn:hover{
 
 
 
-/* --------------------Kye Feature CSS Start------------------------ */
+/* --------------------App Feature CSS Start------------------------ */
 
 
 
-#kyeFeature .row {
+#appFeature .row {
     margin-top: 6rem;
 }
 
 
-#kyeFeature h3 {
+#appFeature h3 {
     color: #242f51;
     font-size: 1.5em;
     font-weight: bolder;
@@ -265,39 +265,39 @@ header .btn:hover{
 }
 
 
-#kyeFeature .container .firstText{
+#appFeature .container .firstText{
     font-size: large;
     font-weight: 400;
     color: #242f51;
 }
 
 
-#kyeFeature .container .allFeature{
+#appFeature .container .allFeature{
     margin-top: 10%;
 }
 
 
 
-#kyeFeature .container .featureIcon{
+#appFeature .container .featureIcon{
     display: flex;
     flex-direction: row;
     padding: 2% 0;
 }
 
 
-#kyeFeature .container h6{
+#appFeature .container h6{
     font-weight: 600;
 }
 
 
-#kyeFeature .container .featureIcon .icon{
+#appFeature .container .featureIcon .icon{
     width: 80px;
     height: fit-content;
     margin: 5px 22px;
 }
 
 
-#kyeFeature .container .lastText{
+#appFeature .container .lastText{
     font-size: medium;
     font-weight: 400;
     color: #242f51;
@@ -305,23 +305,23 @@ header .btn:hover{
 
 
 
-#kyeFeature .container .firstLine{
+#appFeature .container .firstLine{
     color: #f55767;
 }
 
 
 
-#kyeFeature .container .secondLine{
+#appFeature .container .secondLine{
     color: #2563ff;
 }
 
 
-#kyeFeature .container .thirdLine{
+#appFeature .container .thirdLine{
     color: #40975f;
 }
 
 
-/* --------------------Kye Feature CSS End------------------------ */
+/* --------------------App Feature CSS End------------------------ */
 
 
 
@@ -613,12 +613,79 @@ hr:not([size]) {
 #feature .dualPhn{
     width: 100vw;
     height: auto;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 
 
 /* --------------------Feature CSS End------------------------ */
+
+
+
+
+
+/* --------------------Pricing CSS Start------------------------ */
+
+
+#price h3 {
+    color: #242f51;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 10% auto 2%;
+}
+
+
+#price .container .firstText{
+    font-size: large;
+    font-weight: 400;
+    color: #242f51;
+    margin-bottom: 5%;
+}
+
+
+
+#price .btn-group .btn{
+    font-size: .6em;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: #2500f9;
+}
+
+
+#price .btn:hover{
+    color: #2500f9;
+}
+
+
+#price .btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle),
+#price .btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:nth-child(n+2), .btn-group>:not(.btn-check)+.btn{
+    border-radius: 20px;
+}
+
+#price .btn-group, .btn-group-vertical{
+    border: 3px solid #ebebeb;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+#price .btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.dropdown-toggle.show, .btn:active{
+    background-color: #2500f9;
+    color: #fff !important;
+}
+
+
+
+#price .btn-check:focus+.btn, .btn:focus{
+    color: #fff !important;
+    background-color: #2500f9;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+
+
+
+/* --------------------Pricing CSS End------------------------ */
 
 
 
