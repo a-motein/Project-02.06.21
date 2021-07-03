@@ -37,6 +37,7 @@ header .nav-link{
 
 
 .sticky {
+    position: -webkit-sticky; 
     position: sticky;
     top: 0;
     width: 100%;
@@ -643,12 +644,73 @@ hr:not([size]) {
 }
 
 
+#price .firstCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+}
 
-#price .btn-group .btn{
+
+#price .firstCard .col{
+    width: auto;
+    margin: auto;
+}
+
+
+#price .card{
+    border: none;
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 0%), 0 10px 20px 0 rgb(0 0 0 / 10%);
+    width: calc(100% - 40%);
+    margin: auto 5%;
+    transition: ease-in-out transform .2s;
+}
+
+
+#price .card:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 0%), 0 0 0 2px rgb(0 0 0 / 10%);
+}
+
+  
+
+#price .card.fstCrd{
+    margin-left: 35%;
+}
+
+
+
+#price .cardHead{
+    background-image: linear-gradient(0deg, #f4f7f9, #fafcfc, #ffffff);
+    padding: 5%;
+}
+
+
+#price .card .card-body{
+    padding: 5% 0;
+}
+
+
+
+#price .card-header-pills{
+    border: 3px solid #ebebeb;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    padding: 2px;
+}
+
+
+#price .btn{
     font-size: .6em;
     font-weight: 700;
     padding: 10px 20px;
     color: #2500f9;
+    border-radius: 20px;
 }
 
 
@@ -657,30 +719,85 @@ hr:not([size]) {
 }
 
 
-#price .btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle),
-#price .btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:nth-child(n+2), .btn-group>:not(.btn-check)+.btn{
-    border-radius: 20px;
-}
 
-#price .btn-group, .btn-group-vertical{
-    border: 3px solid #ebebeb;
-    border-radius: 20px;
-    margin-bottom: 5%;
-}
-
-#price .btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.dropdown-toggle.show, .btn:active{
+#price .btn.active{
     background-color: #2500f9;
     color: #fff !important;
 }
 
 
 
-#price .btn-check:focus+.btn, .btn:focus{
+#price .btn:focus{
     color: #fff !important;
     background-color: #2500f9;
     border-radius: 20px;
     box-shadow: none;
 }
+
+
+#price .lastBtn{
+    font-size: .6em;
+    font-weight: 700;
+    padding: 10px 50px;
+    color: #fff;
+    background-color: #2500f9;
+    border-radius: 20px;
+    border: 1px solid #2500f9;
+    margin-bottom: 5%;
+}
+
+
+#price .lastBtn:hover{
+    background-color: #fdfdfe;
+    color: #2500f9;
+    border: 1px solid #2500f9;
+    transition: ease-in-out 0.5s;
+}
+
+
+#price .cardHead h1{
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #242f51;
+}
+
+
+#price .cardHead h1>span{
+    font-size: .3em;
+    font-weight: 300;
+    color: #abaeb5;
+}
+
+
+#price .cardHead h5{
+    color: #242f51;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+#price .cardHead p{
+    font-size: .8em;
+    font-weight: 300;
+    color: #abaeb5;
+}
+
+#price .card-body .card-text{
+    font-size: .7em;
+    font-weight: 500;
+    color: #abaeb5;
+    line-height: 300%;
+}
+
+
+#price .card-body .text-mute{
+    color: #2500f9;
+    font-size: .7em;
+    font-weight: 500;
+    margin: 0;
+}
+
+
 
 
 
