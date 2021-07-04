@@ -218,7 +218,7 @@ header .btn:hover{
 #company{
     background-color: #fff;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 
@@ -254,7 +254,7 @@ header .btn:hover{
 
 
 #appFeature .row {
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 
 
@@ -628,6 +628,12 @@ hr:not([size]) {
 /* --------------------Pricing CSS Start------------------------ */
 
 
+#price {
+    margin: 0 0 8%;
+}
+
+
+
 #price h3 {
     color: #242f51;
     font-size: 1.5em;
@@ -662,7 +668,7 @@ hr:not([size]) {
 
 
 #price .card{
-    box-shadow: 0 0 1px 0 rgb(0 0 0 / 0%), 0 10px 20px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 0%), 0 30px 20px 0 rgb(0 0 0 / 10%);
     width: calc(100% - 40%);
     margin: auto 5%;
     transition: ease-in-out transform .2s;
@@ -815,14 +821,100 @@ hr:not([size]) {
     background-repeat: no-repeat;
     background-position: left, center;
     background-size: 50vw;
+    margin: 5% 0;
 }
 
 
 #testiminial .pple-img{
-    width: 80%;
+    width: 90%;
     height: auto;
 }
 
+
+#testiminial h3 {
+    color: #242f51;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 10% auto 2%;
+}
+
+
+#testiminial .container .firstText{
+    font-size: large;
+    font-weight: 400;
+    color: #242f51;
+    margin-bottom: 5%;
+}
+
+
+#testiminial .container .allLine{
+    color: #242f51;
+    font-weight: 600;
+    padding-bottom: 2%;
+}
+
+
+#testiminial .container .intro{
+    margin: auto auto auto 20px;
+}
+
+
+#testiminial .container .ceoIntro{
+    color: #242f51;
+    font-weight: 600;
+    margin: 3px 0;
+}
+
+
+
+#testiminial .d-flex.list-unstyled li{
+    margin-right: 10px;
+    color: #ffcc00;
+    font-size: 0.5em;
+}
+
+
+#testiminial .container p{
+    margin: 0;
+}
+
+
+#testiminial .container .ceoProf .circleBtn{
+    padding: 3px;
+    height: auto;
+    width: 42px;
+    border-radius: 50%;
+    border: 3px solid #eaebec;
+    color: #eaebec;
+    margin-right: 8px;
+}
+
+
+#testiminial .container .ceoProf .circleBtn2{
+    padding: 3px;
+    height: auto;
+    width: 42px;
+    border-radius: 50%;
+    border: 1px solid #eeeff1;
+    color: #2500f9 !important;
+    background-color: #eff3f1;
+    margin-left: 8px;
+}
+
+
+
+#testiminial .container .ceoProf span.m-auto{
+    color: #d8dadc;
+    height: auto;
+    padding: 12px 0;
+    border: 1px solid #d8dadc;
+}
+
+
+#testiminial .container .ceoProf .ceoTitle{
+    font-size: .8em;
+    font-weight: 400;
+}
 
 
 
@@ -832,9 +924,166 @@ hr:not([size]) {
 
 
 
+/* --------------------FAQ CSS Start------------------------ */
+
+
+#faq{
+    margin: 5% 0 8%;
+}
 
 
 
+#faq h3 {
+    color: #242f51;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 10% auto 2%;
+}
+
+
+#faq .container .firstText{
+    font-size: large;
+    font-weight: 400;
+    color: #242f51;
+    margin-bottom: 5%;
+}
+
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    color: #242f51;
+    background-color: #f5f7fa;
+    box-shadow: none;
+}
+
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #242f51;
+    text-align: left;
+    background-color: #f5f7fa;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+
+#faq .container .accordion-item h6 {
+    color: #242f51;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+#faq  .accordion-item {
+    background-color: #f5f7fa;
+    border: none;
+}
+
+
+#faq  .accordion-item .accordionText{
+    font-size: .8em;
+    padding: 0 2rem;
+    font-weight: 400;
+    color: #242f51;
+}
+
+
+
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    content: "\002B";
+    color: #242f51;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    transition: transform .2s ease-in-out;
+    background-image: none;
+    border: none;
+    font-size: 1.1em;
+    font-weight: normal;
+    float: right;
+    margin-left: auto;
+}
+
+
+  
+  .accordion-button:not(.collapsed)::after {
+    content: "\2212";
+    background-image: none;
+    border: none;
+    margin-right: 12px;
+  }
+
+
+  #faq .container .accordion-item{
+      margin: 5px 0;
+  }
+
+
+/* --------------------FAQ CSS End------------------------ */
+
+
+
+
+/* --------------------Download Our App CSS Start------------------------ */
+
+#doan h3 {
+    color: #242f51;
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 10% auto 2% 15%;
+}
+
+
+#doan .container-fluid .firstText{
+    font-size: large;
+    font-weight: 400;
+    color: #242f51;
+    margin: 0 0 3% 15%;
+}
+
+#doan .container-fluid .col-md-6 a.google{
+    margin-left: 15%;
+}
+
+#doan img.img-fluid.featureImage{
+    margin-bottom: -7%;
+}
+
+
+
+/* --------------------Download Our App CSS End------------------------ */
+
+
+
+/* --------------------Footer CSS Start------------------------ */
+
+
+
+
+footer .row.text-center{
+    padding-top: 5%;
+    background-color: #09142e;
+}
+
+
+/* --------------------Footer CSS End------------------------ */
 
 
 
