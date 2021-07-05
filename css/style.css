@@ -16,6 +16,7 @@ a{
 }
 
 
+
 /* --------------------Header CSS Start------------------------ */
 
 header{
@@ -73,6 +74,7 @@ header .btn{
     background-color: #2500f9;
     color: #fff;
     margin-left: 1.5rem;
+    transition: ease-in-out 0.5s;
 }
 
 
@@ -81,7 +83,6 @@ header .btn:hover{
     background-color: #fdfdfe;
     color: #2500f9;
     border: 1px solid #2500f9;
-    transition: ease-in-out 0.5s;
 }
 
 
@@ -447,6 +448,7 @@ header .btn:hover{
     color: #fff;
     background-color: #2500f9;
     border-radius: 20px;
+    transition: ease-in-out 0.5s;
 }
 
 
@@ -455,7 +457,6 @@ header .btn:hover{
     background-color: #fdfdfe;
     color: #2500f9;
     border: 1px solid #2500f9;
-    transition: ease-in-out 0.5s;
 }
 
 
@@ -599,6 +600,7 @@ hr:not([size]) {
     background-color: #2500f9;
     border-radius: 20px;
     margin: 5% auto;
+    transition: ease-in-out 0.5s;
 }
 
 
@@ -607,7 +609,6 @@ hr:not([size]) {
     background-color: #fdfdfe;
     color: #2500f9;
     border: 1px solid #2500f9;
-    transition: ease-in-out 0.5s;
 }
 
 
@@ -750,6 +751,7 @@ hr:not([size]) {
     border-radius: 20px;
     border: 1px solid #2500f9;
     margin-bottom: 5%;
+    transition: ease-in-out .5s;
 }
 
 
@@ -757,7 +759,6 @@ hr:not([size]) {
     background-color: #fdfdfe;
     color: #2500f9;
     border: 1px solid #2500f9;
-    transition: ease-in-out 0.5s;
 }
 
 
@@ -981,7 +982,7 @@ hr:not([size]) {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
 }
 
-#faq .container .accordion-item h6 {
+#faq .container .accordion-item h2 button {
     color: #242f51;
     font-weight: 600;
     margin: 0;
@@ -1080,6 +1081,53 @@ hr:not([size]) {
 footer .row.text-center{
     padding-top: 5%;
     background-color: #09142e;
+}
+
+
+footer .col-12 img{
+    margin-bottom: 2%;
+}
+
+
+footer ul li{
+    padding: 1%;
+}
+
+
+
+footer .footerMenu ul li a{
+    font-size: 0.7em;
+    font-weight: 400;
+    color: #fff;
+    transition: .7s ease-in-out;
+}
+
+
+
+footer .footerMenu ul li a:hover {
+    color: #273043;
+    transform: rotate(360deg);
+
+}
+
+
+footer .footerSicon ul li a i{
+    font-size: 1.2em;
+    color: #273043;
+    transition: ease-in-out .3s;
+}
+
+
+footer .footerSicon ul li i:hover {
+    color: #fff;
+    transform: rotate(-45deg);
+}
+
+
+
+footer .col-12 p{
+    font-size: .7em;
+    font-weight: 400;
 }
 
 
