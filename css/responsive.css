@@ -1,0 +1,314 @@
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+
+
+
+h1, h3, h6, p, img, .btn, .btn-group{
+    margin: 3% auto !important;
+}
+
+
+
+/* -------------------Header CSS-------------------------- */
+
+
+header .navbar-nav{
+    align-items: flex-start;
+}
+
+
+
+
+
+
+/* --------------------Banner CSS Start------------------------ */
+
+
+#banner {
+    background-position: bottom center;
+    background-size: 512vw;
+}
+
+
+
+
+/* --------------------Company Name CSS Start------------------------ */
+
+
+#company h6{
+    font-size: 1em;
+}
+
+
+#company .container .companyImg{
+    display: block;
+    margin: auto;
+}
+
+#company .container .companyImg .logoImg{
+    width: 50vw;
+}
+
+
+
+/* --------------------App Feature CSS Start------------------------ */
+
+
+#appFeature .row{
+	margin-top: 0;
+}
+
+
+
+/* --------------------Testiminial CSS Start------------------------ */
+
+#testiminial{
+	background-position: top center;
+	background-size: 100vw;
+}
+
+
+
+/* --------------------Feature CSS Start------------------------ */
+
+#feature{
+	background-position: bottom center;
+	background-size: 100vw;
+}
+
+
+
+/* --------------------Pricing CSS Start------------------------ */
+
+#price .col-md-6{
+    margin-bottom: 10%;
+}
+
+
+#price .card{
+    margin: auto !important;
+}
+
+
+#price .lastBtn{
+    padding: 10px 20px;
+}
+
+
+
+
+
+}
+
+	/* Extra small devices End  */
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+    h1, h3, h6, p, img, .btn, .btn-group{
+        margin: 3% auto !important;
+    }
+    
+    
+    
+    /* -------------------Header CSS-------------------------- */
+    
+    
+    header .navbar-nav{
+        align-items: flex-start;
+    }
+    
+    
+    
+    
+    
+    
+    /* --------------------Banner CSS Start------------------------ */
+    
+    
+	#banner {
+	    background-position: bottom center;
+	    background-size: 412vw;
+	}
+    
+    
+    
+    /* --------------------Company Name CSS Start------------------------ */
+    
+    
+    #company h6{
+        font-size: 1em;
+    }
+    
+    
+    #company .container .companyImg{
+        display: block;
+        margin: auto;
+    }
+    
+    #company .container .companyImg .logoImg{
+        width: 40vw;
+    }
+
+    
+	/* --------------------Testiminial CSS Start------------------------ */
+
+	#testiminial{
+		background-position: top center;
+		background-size: 90vw;
+	}
+
+
+
+	/* --------------------Feature CSS Start------------------------ */
+
+	#feature{
+		background-position: bottom center;
+		background-size: 90vw;
+	}
+
+
+
+    
+    /* --------------------Pricing CSS Start------------------------ */
+    
+    #price .col-md-6{
+        margin-bottom: 10%;
+    }
+    
+    
+    #price .card{
+        margin: auto !important;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+	/* Small devices End  */
+
+
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	
+    h1, h3, h6, p, img, .btn, .btn-group{
+        margin: 3% auto !important;
+    }
+    
+        
+    /* -------------------Header CSS-------------------------- */
+    
+    
+    header .navbar-nav{
+        align-items: flex-start;
+    }
+    
+
+    
+    
+    
+    /* --------------------Company Name CSS Start------------------------ */
+    
+    
+    #company h6{
+        font-size: 1em;
+    }
+    
+    
+    #company .container .companyImg{
+        margin: auto;
+    }
+    
+    #company .container .companyImg .logoImg{
+        width: 50vw;
+    }
+    
+    
+    /* --------------------Pricing CSS Start------------------------ */
+    
+    
+    
+    
+    #price .cardHead{
+        padding: 3%;
+    }
+
+
+
+
+
+	
+
+
+
+
+}
+
+
+	/* Medium devices End  */
+
+
+
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+	/* Large devices End  */
+
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+
+
+
+
+
+
+
+
+}
+
+
+	/* Extra large devices End  */
