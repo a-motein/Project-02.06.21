@@ -863,6 +863,7 @@ hr:not([size]) {
 #testiminial .container .ceoIntro{
     color: #242f51;
     font-weight: 600;
+    font-size: 1em;
     margin: 3px 0;
 }
 
@@ -881,33 +882,27 @@ hr:not([size]) {
 
 
 #testiminial .container .ceoProf .circleBtn{
-    padding: 3px;
-    height: auto;
-    width: 42px;
+    padding: 5% 15%;
     border-radius: 50%;
     border: 3px solid #eaebec;
     color: #eaebec;
-    margin-right: 8px;
 }
 
 
 #testiminial .container .ceoProf .circleBtn2{
-    padding: 3px;
-    height: auto;
-    width: 42px;
+    padding: 5% 18%;
     border-radius: 50%;
     border: 1px solid #eeeff1;
     color: #2500f9 !important;
     background-color: #eff3f1;
-    margin-left: 8px;
 }
 
 
 
-#testiminial .container .ceoProf span.m-auto{
+#testiminial .container .ceoProf span{
     color: #d8dadc;
-    height: auto;
-    padding: 12px 0;
+    height: 1.5rem;
+    margin: auto;
     border: 1px solid #d8dadc;
 }
 
